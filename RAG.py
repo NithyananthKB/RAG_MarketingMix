@@ -8,7 +8,7 @@ import torch
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Read and extract text from PDF
-pdf_path = '/Users/bobbypreethi/Downloads/tatamotors.pdf'
+pdf_path = '/Users/nithyananthkb/Downloads/tatamotors.pdf'
 full_text = ""
 with pdfplumber.open(pdf_path) as pdf:
     for page in pdf.pages:
